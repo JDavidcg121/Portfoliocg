@@ -1,6 +1,6 @@
-# 📂 Portfolio Template - QARMY
+# 📂 Portfolio - Jason
 
-Este **Template para portfolios** es de libre uso. Realizado para que puedan usarlos todos los miembros de Underc0de.
+
 
 ## 📋 Table of Contents
 
@@ -12,8 +12,7 @@ Este **Template para portfolios** es de libre uso. Realizado para que puedan usa
 
 ## 🎉 Home
 
-Este template muestra en su home datos sobre nosotros, que cosas hacemos, testimonios y clientes.
-También muestra información personal, como nombre, apellido, datos de contacto y redes sociales
+
 
 ## ✨ Resume
 
