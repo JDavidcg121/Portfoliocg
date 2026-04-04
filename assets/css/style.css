@@ -867,7 +867,14 @@ main {
   border-radius: inherit;
 }
 
-
+.skill-link {
+  color: white;
+  text-decoration: none;
+}
+.skill-link:hover {
+  color: #00ff73;
+  text-decoration: underline;
+}
 
 
 
