@@ -1,37 +1,20 @@
-# 📂 Portfolio Template - QARMY
+# QA Portfolio Website
 
-Este **Template para portfolios** es de libre uso. Realizado para que puedan usarlos todos los miembros de Underc0de.
+This is my personal QA Tester portfolio, built using HTML, CSS, and JavaScript.  
+It includes information about my skills, experience, projects, and contact details.
 
-## 📋 Table of Contents
+## 🔧 Technologies
+- HTML5  
+- CSS3  
+- JavaScript  
+- Git & GitHub  
 
-- [Home](#home)
-- [Educación y Experiencia](#resume)
-- [Contacto](#contact)
-- [Requerimientos](#requerimientos)
-- [Video](#video)
+## 🚀 Features
+- Responsive portfolio design  
+- Personalized bio  
+- QA-focused projects section  
+- Smooth navigation  
 
-## 🎉 Home
-
-Este template muestra en su home datos sobre nosotros, que cosas hacemos, testimonios y clientes.
-También muestra información personal, como nombre, apellido, datos de contacto y redes sociales
-
-## ✨ Resume
-
-Permite añadir datos de Educación y Experiencia personal, así como también barras de skills
-
-## Contacto
-
-La pestaña de contacto, muestra un formulario. Que en caso de que lo necesiten, puedo programar algo en PHP para que envíe mails en una segunda versión.
-
-## Requerimientos
-
-Para poder usar este template, es necesario saber lo siguiente:
-
-- HTML y CSS
-- Tener instalado algún IDE o editor de texto
-- Tener dominio y servidor para montar el template
-
-## Video
-
-En el canal de QARMY podrán encontrar el video explicativo de como se usa y modifica el template
-https://www.youtube.com/@QARMY-UC
+## 📬 Contact
+LinkedIn: https://www.linkedin.com/in/jcalderonqa  
+GitHub: https://github.com/JDavidcg121
