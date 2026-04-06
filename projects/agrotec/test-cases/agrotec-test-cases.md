@@ -11,8 +11,7 @@ This document contains functional manual test cases for the public website **Agr
 - Main navigation  
 - Articles / news notes  
 - Digital magazine viewer  
-- External advertising links  
-- Contact form  
+- External advertising links   
 - General UI & responsive behavior  
 
 ## 📂 3. Test Cases
@@ -77,7 +76,7 @@ Pages turn smoothly and load correct content.
 
 ---
 
-### **TC-006 – Zoom Functionality (If Available)**
+### **TC-006 – Zoom Functionality **
 **Module:** Magazine Viewer  
 **Priority:** Medium  
 **Steps:**  
@@ -109,20 +108,10 @@ Contact information or form loads properly.
 
 ---
 
-### **TC-009 – Form Submission (If Available)**
-**Module:** Contact Form  
-**Priority:** Medium  
-**Steps:**  
-1. Enter name  
-2. Enter email  
-3. Write a short message  
-4. Click “Enviar”  
-**Expected Result:**  
-User receives confirmation message (success alert or redirect).
 
 ---
 
-### **TC-010 – Mobile Responsive Layout**
+### **TC-009 – Mobile Responsive Layout**
 **Module:** Responsive  
 **Priority:** Medium  
 **Preconditions:** Open site in mobile view  
@@ -134,7 +123,7 @@ Content adapts correctly; no overlapping or cut elements.
 
 ---
 
-### **TC-011 – Menu Hamburger on Mobile**
+### **TC-010 – Menu Hamburger on Mobile**
 **Module:** Navigation  
 **Priority:** Medium  
 **Steps:**  
@@ -145,7 +134,7 @@ Menu expands and allows navigation smoothly.
 
 ---
 
-### **TC-012 – Broken Link Validation**
+### **TC-011 – Broken Link Validation**
 **Module:** Links  
 **Priority:** Medium  
 **Steps:**  
