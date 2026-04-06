@@ -4,17 +4,17 @@ Author: Jason CalderÃ³n
 Version: 1.0  
 Date: 2026-04-04
 
-## ï¿½ï¿½ï¿½ 1. Overview
+## í³˜ 1. Overview
 This document contains functional manual test cases for the platform **Agrotec**, focusing on login flow, navigation, field data visualization, and user interactions.
 
-## ï¿½ï¿½ï¿½ 2. Scope
+## í·ª 2. Scope
 - Login module  
 - Dashboard  
 - Crops/fields list  
 - Weather information  
 - General UI validation  
 
-## ï¿½ï¿½ï¿½ 3. Test Cases
+## í³‚ 3. Test Cases
 
 ### **TC-001 â€“ Valid Login**
 **Module:** Login  
