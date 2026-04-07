@@ -127,4 +127,4 @@ Performance is consistent across all supported browsers; no delays or crashes.
 
 ✨ **Notes:**  
 - All tests can be automated with tools like **JMeter**, **Locust**, or **Cypress Performance plugins**.  
-- Results should be documented with screenshots, response times, and metrics for reference.  
+- Results should be documented with screenshots, response times, and metrics for reference.
