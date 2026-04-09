@@ -158,8 +158,17 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 
+/*Experience */
+.timeline-text li {
+  color: var(--light-gray);
+  list-style-type: "• "; 
+  color: var(--white);
+}
 
-
+.timeline-text li::marker {
+  color: var(--orange-yellow-crayola); /* Bullet color */
+  font-size: 1.3rem;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
