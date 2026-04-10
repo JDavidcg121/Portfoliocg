@@ -1,22 +1,35 @@
-# Cypress Automation – Login Tests
+    🧪 Cypress – Navigation Tests (Agrotec)
 
-This project contains automated tests using **Cypress** for the login module of the demo application:
+    This automated test suite validates key navigation elements of the Agrotec website, ensuring users can correctly access important sections such as Ediciones and Contact.
 
-🌐 [Demo App Login] https://the-internet.herokuapp.com/login
+    ✔️ Included Tests
+    1. “Ediciones” Menu Validation
 
-## ✅ Included Tests
-- Positive login
-- Negative login
-- User data fixtures
-- Base Cypress configuration
+    This test verifies that:
 
-## 🏃 Run Instructions
+    The “Ediciones” link is visible in the main navigation menu.
+    The link can be clicked even if there are overlays or visual effects.
+    The navigation leads to a page related to Ediciones or Agrotec Magazine.
 
-### Install dependencies
-npm install
+    Expected result: Users can access the Ediciones section without navigation issues.
 
-### Open Cypress UI
-npm run cypress:open
+    2. “Contact” Button/Link Validation
 
-### Run headless tests
-npm run cypress:run
+    This test ensures that:
+
+    The “Contact” button or link is visible on the page.
+    Clicking it successfully redirects the user to the contact section.
+    A contact form or matching contact section element exists on the page.
+
+    Expected result: The contact section loads properly and is easily accessible.
+
+    🔧 Technologies Used
+    Cypress
+    JavaScript
+    Chrome WebDriver (Cypress runner)
+    📁 Code Location
+    /projects/agrotec/cypress-automation/cypress/e2e
+    🎯 Overall Objective
+
+    These tests ensure that the website’s core navigation works as intended by validating element visibility, click interactions, and correct content loading.
+
