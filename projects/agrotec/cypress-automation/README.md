@@ -31,8 +31,7 @@
     /projects/agrotec/cypress-automation/cypress/e2e
     🎯 Overall Objective
    
-    ## 🎥 Demo Video
-[![Watch the demo](https://img.youtube.com/vi/abc123XYZ/0.jpg)](https://www.youtube.com/watch?v=abc123XYZ)
+
 
      ## 🎥 Cypress Test Execution
 
