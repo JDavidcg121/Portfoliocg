@@ -50,7 +50,8 @@ Documentation of issues related to navigation, responsiveness, and user experien
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot](assets\images\portfolio-preview.png)
+![Portfolio Screenshot](./assets\images\portfolio-preview.png)
+
 
 
 ---
