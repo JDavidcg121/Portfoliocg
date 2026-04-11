@@ -4,7 +4,7 @@ describe('Edits menu', () => {
     cy.visit('https://agroteccr.com/');
   });
 
-  it('allows access to the Edits menu and scrolls twice', () => {
+  it('This test verifies access to the Editions menu and simulates multiple scroll interactions.', () => {
     cy.contains('a', /ediciones/i)
       .should('be.visible');
 
