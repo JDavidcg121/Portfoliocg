@@ -31,8 +31,9 @@
     /projects/agrotec/cypress-automation/cypress/e2e
     🎯 Overall Objective
    
-    ## 🎥 Demo Video
-    [![Watch the demo](https://youtu.be/KOxyh8E5GtI)](https://youtu.be/KOxyh8E5GtI)
+      ## 🎥 Demo Video
+    [![Watch the demo](https://img.youtube.com/vi/KOxyh8E5GtI/1.jpg)](https://youtu.be/KOxyh8E5GtI)
+
 
     These tests ensure that the website’s core navigation works as intended by validating element visibility, click interactions, and correct content loading.
 
