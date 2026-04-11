@@ -4,7 +4,7 @@ describe('Contact Button', () => {
     cy.visit('https://agroteccr.com/');
   });
 
-  it('This leads to the contact section', () => {
+  it('Navigates to the contact section', () => {
       cy.wait(2000);
     cy.contains('a, button', /contacto/i)
       .should('be.visible')

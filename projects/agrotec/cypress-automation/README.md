@@ -30,6 +30,8 @@
     📁 Code Location
     /projects/agrotec/cypress-automation/cypress/e2e
     🎯 Overall Objective
+    ## 🎥 Demo Video
+    [![Watch the demo](https://img.youtube.com/vi/TU_VIDEO_ID/0.jpg)](https://youtu.be/TU_VIDEO_ID)
 
     These tests ensure that the website’s core navigation works as intended by validating element visibility, click interactions, and correct content loading.
 
