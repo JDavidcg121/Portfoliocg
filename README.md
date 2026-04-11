@@ -50,15 +50,15 @@ Documentation of issues related to navigation, responsiveness, and user experien
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot](path/to/your/screenshot.png)
+![Portfolio Screenshot](./assets/images/portfolio-preview.png)
 
-*(Add a general screenshot of your portfolio here so visitors can quickly see how it looks.)*
+
 
 ---
 
 ## 📬 Contact
 - [LinkedIn](https://www.linkedin.com/in/jcalderonqa)  
-- [GitHub](https://github.com/JDavidcg121)  
+- [GitHub](https://github.com/JDavidcg121/Portfoliocg?tab=readme-ov-file)  
 - Email: your.email@example.com  
 
 ---
