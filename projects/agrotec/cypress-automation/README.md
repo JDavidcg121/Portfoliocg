@@ -34,9 +34,10 @@
      ## 🎥 Cypress Test Execution
 
     This demo shows automated tests validating navigation and user interaction.
-
- [![Watch the demo](https://img.youtube.com/vi/abc123XYZ/0.jpg)](https://www.youtube.com/watch?v=abc123XYZ)
-
-
+    
     These tests ensure that the website’s core navigation works as intended by validating element visibility, click interactions, and correct content loading.
+    
+ [![Watch the demo](https://img.youtube.com/vi/abc123XYZ/1.jpg)](https://www.youtube.com/watch?v=abc123XYZ)
+
+    
 
