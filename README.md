@@ -50,7 +50,7 @@ Documentation of issues related to navigation, responsiveness, and user experien
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot](./assets\images\portfolio-preview.png)
+![Portfolio Screenshot](./assets/images/portfolio-preview.png)
 
 
 
@@ -59,7 +59,7 @@ Documentation of issues related to navigation, responsiveness, and user experien
 ## 📬 Contact
 - [LinkedIn](https://www.linkedin.com/in/jcalderonqa)  
 - [GitHub](https://github.com/JDavidcg121/Portfoliocg?tab=readme-ov-file)  
-- Email: your.email@example.com  
+- Email: jasoncg.cr@gmail.com  
 
 ---
 
