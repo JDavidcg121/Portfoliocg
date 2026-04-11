@@ -32,7 +32,7 @@
     🎯 Overall Objective
    
     ## 🎥 Demo Video
-    [![Watch the demo](https://img.youtube.com/vi/tu-video-id/0.jpg)](https://youtu.be/tu-video-id)
+    [![Watch the demo](https://youtu.be/KOxyh8E5GtI)](https://youtu.be/KOxyh8E5GtI)
 
     These tests ensure that the website’s core navigation works as intended by validating element visibility, click interactions, and correct content loading.
 
