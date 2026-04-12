@@ -1,6 +1,7 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
+
   /* ===============================
      Navbar Links
   ================================== */
@@ -9,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
+      window.scrollTo(0, 0);
+
       navLinks.forEach(l => l.classList.remove('active'));
       link.classList.add('active');
 
@@ -22,6 +25,41 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  /* ===============================
+     Copy Email 
+  ================================== */
+  const email = document.getElementById('email');
+
+  if (email) {
+    const originalEmail = email.textContent;
+
+    email.addEventListener('click', () => {
+     
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(originalEmail);
+      } else {
+        const temp = document.createElement('textarea');
+        temp.value = originalEmail;
+        document.body.appendChild(temp);
+        temp.select();
+        document.execCommand('copy');
+        document.body.removeChild(temp);
+      }
+
+     
+      email.textContent = 'Copied!';
+
+      setTimeout(() => {
+        email.textContent = originalEmail;
+      }, 1500);
+    });
+  }
+
+});
+
+
+
 
   /* ===============================
      Portfolio Filters (Buttons)
@@ -83,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (sidebarBtn && sidebar) {
     sidebarBtn.addEventListener('click', () => {
-      sidebar.classList.toggle('show');
+      sidebar.classList.toggle('active');
     });
   }
 
@@ -103,4 +141,3 @@ document.addEventListener('DOMContentLoaded', () => {
       modalContainer.classList.remove('active');
     });
   }
-});
