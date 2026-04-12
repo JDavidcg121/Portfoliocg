@@ -330,7 +330,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 140px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -341,8 +341,13 @@ main {
   position: relative;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 15px;
+}
+
+.info-content {
+  min-width: 0;
+  padding-top: 6px;
 }
 
 .avatar-box {
