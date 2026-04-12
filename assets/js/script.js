@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       navLinks.forEach(l => l.classList.remove('active'));
       link.classList.add('active');
 
-      const targetPage = link.textContent.toLowerCase();
+      const targetPage = link.dataset.targetPage;
       pages.forEach(page => {
         if (page.dataset.page === targetPage) {
           page.classList.add('active');
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         filterBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
 
-        const category = btn.textContent.toLowerCase();
+        const category = btn.dataset.filterValue;
 
         filterItems.forEach(item => {
           const itemCategory = item.dataset.category.toLowerCase();
@@ -101,13 +101,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     selectList.forEach(item => {
       item.addEventListener('click', () => {
-        const value = item.textContent;
-        selectValue.textContent = value;
+        const value = item.dataset.filterValue;
+        selectValue.textContent = item.textContent;
         selectBtn.classList.remove('active');
 
         // Simular click en el botón del filtro correspondiente
         filterBtns.forEach(btn => {
-          if (btn.textContent === value) btn.click();
+          if (btn.dataset.filterValue === value) btn.click();
         });
       });
     });

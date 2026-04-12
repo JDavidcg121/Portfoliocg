@@ -73,7 +73,7 @@
 
         <ul class="social-list">
           <li class="social-item">
-            <a href="https://github.com/JDavidcg121" class="social-link" aria-label="GitHub profile">
+            <a href="https://github.com/JDavidcg121/Portfoliocg" class="social-link" aria-label="GitHub profile">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
@@ -94,13 +94,13 @@
       <nav class="navbar">
         <ul class="navbar-list">
           <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link data-target-page="about">About</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link data-target-page="resume">Resume</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link data-target-page="portfolio">Portfolio</button>
           </li>
         </ul>
       </nav>
@@ -375,10 +375,10 @@
 
     <!-- Filtro de proyectos -->
     <ul class="filter-list">
-      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
-      <li class="filter-item"><button data-filter-btn>Testing Manual</button></li>
-      <li class="filter-item"><button data-filter-btn>Automation</button></li>
-      <li class="filter-item"><button data-filter-btn>Performance</button></li>
+      <li class="filter-item"><button class="active" data-filter-btn data-filter-value="all">All</button></li>
+      <li class="filter-item"><button data-filter-btn data-filter-value="testing manual">Testing Manual</button></li>
+      <li class="filter-item"><button data-filter-btn data-filter-value="automation">Automation</button></li>
+      <li class="filter-item"><button data-filter-btn data-filter-value="performance">Performance</button></li>
     </ul>
 
     <!-- Select para mobile -->
@@ -388,10 +388,10 @@
         <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
       </button>
       <ul class="select-list">
-        <li class="select-item"><button data-select-item>All</button></li>
-        <li class="select-item"><button data-select-item>Testing Manual</button></li>
-        <li class="select-item"><button data-select-item>Automation</button></li>
-        <li class="select-item"><button data-select-item>Performance</button></li>
+        <li class="select-item"><button data-select-item data-filter-value="all">All</button></li>
+        <li class="select-item"><button data-select-item data-filter-value="testing manual">Testing Manual</button></li>
+        <li class="select-item"><button data-select-item data-filter-value="automation">Automation</button></li>
+        <li class="select-item"><button data-select-item data-filter-value="performance">Performance</button></li>
       </ul>
     </div>
 
